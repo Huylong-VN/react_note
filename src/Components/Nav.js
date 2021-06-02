@@ -10,8 +10,8 @@ class Nav extends Component {
     return (
         <div>
              <nav className="navbar navbar-expand-sm navbar-dark bg-primary">
-        <a className="navbar-brand" href="facebook.com">
-          Navbar
+        <a className="navbar-brand" href="https://www.facebook.com/NothingFormeRN/">
+          Home
         </a>
         <button
           className="navbar-toggler d-lg-none"
@@ -28,11 +28,6 @@ class Nav extends Component {
         >
           <ul className="navbar-nav mt-2 mt-lg-0">
             <li className="nav-item active">
-              <a className="nav-link" href="facebook.com">
-                Home <span className="sr-only">(current)</span>
-              </a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="facebook.com" onClick={(event)=>this.handleAdd(event)}>
                 Add Note
               </a>
