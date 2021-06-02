@@ -13,6 +13,7 @@ class NoteItem extends Component {
     return (
         <div className="card">
           <div className="card-header" role="tab" id={"s"+this.props.Id}>
+          <small className='text-muted'>Click để xem nội dung </small>
             <h5 className="mb-0">
               <a
                 data-toggle="collapse"
@@ -21,7 +22,7 @@ class NoteItem extends Component {
                 aria-expanded="true"
                 aria-controls={"Content"+this.props.Id}
               >
-                {this.props.title}
+                <h3 className="badge rounded-pill bg-secondary text-uppercase fs-1">{this.props.title}</h3>
               </a>
               <div className='btn-group float-right'>
                 <div className='btn btn-outline-primary' onClick={()=>this.deleteData()}>Delete</div>
