@@ -14,7 +14,7 @@ class Nav extends Component {
             className="navbar-brand"
             href="https://www.facebook.com/NothingFormeRN/"
           >
-            Home
+            <img src="https://www.logodesign.net/logo/camera-lens-with-digital-pixels-2638ld.png" />
           </a>
           <button
             className="navbar-toggler d-lg-none"
