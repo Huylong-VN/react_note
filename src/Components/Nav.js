@@ -14,7 +14,7 @@ class Nav extends Component {
             className="navbar-brand"
             href="https://www.facebook.com/NothingFormeRN/"
           >
-            <img src="logo.png" alt="Not null" className="logoheader"/>
+            <img src="/react_note/logo.png" alt="Not null" className="logoheader"/>
           </a>
           <button
             className="navbar-toggler d-lg-none"
